@@ -5,8 +5,6 @@ import styled from 'styled-components';
 
 import { LoadingDots } from '../../Lottie';
 
-// import analytics from 'utils/Analytics/segment';
-
 const StyledButton = styled.button`
   align-items: center;
   background: none;
@@ -33,7 +31,6 @@ const StyledButton = styled.button`
 `;
 
 const onSubmit = (e, submit) => {
-  // analytics.track(`button_click_${text}`);
   submit(e);
 };
 
@@ -62,7 +59,5 @@ Button.defaultProps = {
   disabled: false,
   loading: false,
 };
-
-Button.displayName = 'Button';
 
 export default Button;
