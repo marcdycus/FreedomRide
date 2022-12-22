@@ -9,7 +9,7 @@ const StyledButton = styled.button`
   align-items: center;
   background: none;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   display: flex;
   flex: none;
   flex-direction: row;
@@ -48,7 +48,6 @@ function Button({ children, className, disabled, loading, submit, text }) {
 }
 
 Button.propTypes = {
-  children: PropTypes.shape({}),
   className: PropTypes.string,
   disabled: PropTypes.bool,
   loading: PropTypes.bool,

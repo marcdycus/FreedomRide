@@ -53,9 +53,4 @@ const LoadingDots = ({ className, height = 44, width = 12 }) => {
   );
 };
 
-LoadingDots.propTypes = {
-  className: PropTypes.string,
-  height: PropTypes.number,
-  width: PropTypes.number,
-};
 export { LoadingDots };
