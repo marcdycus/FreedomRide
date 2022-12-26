@@ -50,6 +50,8 @@ const theme = {
   lightCoral: '#b07258',
 
   transparent: 'transparent',
+
+  white: '#FFFFFF',
 };
 
 export default theme;
